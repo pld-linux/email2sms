@@ -11,6 +11,7 @@ Source0:	http://adamspiers.org/computing/%{name}/email2sms.tar.gz
 URL:		http://adamspiers.org/computing/email2sms/
 BuildRequires:	perl-base
 BuildRequires:	perl-Lingua-EN-Squeeze
+Requires:	perl-MIME-tools
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

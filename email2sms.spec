@@ -24,6 +24,17 @@ options, including removal of quoted text. Ideal for use with
 procmail. A Perl script for sending the output to a typical e-mail to
 SMS web gateway is included.
 
+%description -l pl
+email2sms to napisany w Perlu filtr konwertuj±cy listy elektroniczne
+do postaci nadaj±cej siê do wysy³ania jako wiadomo¶æ SMS. G³ówn±
+zalet± nad innymi programami tego typu jest to, ¿e u¿ywa modu³u CPAN
+Lingua::EN::Squeeze, aby skompresowaæ tekst do oko³o 40% oryginalnego
+rozmiaru, co pozwala zmie¶ciæ wiêcej w ograniczeniu do 160 znaków.
+Program jest w pe³ni kompatybilny z MIME i ma wiele opcji, w³±cznie z
+usuwaniem cytowanego tekstu. Idealny do u¿ywania z procmailem.
+Za³±czony jest skrypt perlowy do wysy³ania wyj¶cia przez typow±
+bramkê e-mail-SMS.
+
 %prep
 %setup -q -c
 

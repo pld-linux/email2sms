@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://adamspiers.org/computing/%{name}/email2sms.tar.gz
+# Source0-md5:	c822bdc3a3af7fd44529189bf1e3ac26
 URL:		http://adamspiers.org/computing/email2sms/
 BuildRequires:	perl
 BuildRequires:	perl-Lingua-EN-Squeeze

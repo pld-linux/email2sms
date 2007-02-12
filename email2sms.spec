@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	An Email-to-SMS formatter
-Summary(pl):	Formatowanie wiadomo¶ci Poczta->SMS
+Summary(pl.UTF-8):   Formatowanie wiadomoÅ›ci Poczta->SMS
 Name:		email2sms
 Version:	0.1
 Release:	1
@@ -26,16 +26,16 @@ options, including removal of quoted text. Ideal for use with
 procmail. A Perl script for sending the output to a typical e-mail to
 SMS web gateway is included.
 
-%description -l pl
-email2sms to napisany w Perlu filtr konwertuj±cy listy elektroniczne
-do postaci nadaj±cej siê do wysy³ania jako wiadomo¶æ SMS. G³ówn±
-zalet± nad innymi programami tego typu jest to, ¿e u¿ywa modu³u CPAN
-Lingua::EN::Squeeze, aby skompresowaæ tekst do oko³o 40% oryginalnego
-rozmiaru, co pozwala zmie¶ciæ wiêcej w ograniczeniu do 160 znaków.
-Program jest w pe³ni kompatybilny z MIME i ma wiele opcji, w³±cznie z
-usuwaniem cytowanego tekstu. Idealny do u¿ywania z procmailem.
-Za³±czony jest skrypt perlowy do wysy³ania wyj¶cia przez typow±
-bramkê e-mail-SMS.
+%description -l pl.UTF-8
+email2sms to napisany w Perlu filtr konwertujÄ…cy listy elektroniczne
+do postaci nadajÄ…cej siÄ™ do wysyÅ‚ania jako wiadomoÅ›Ä‡ SMS. GÅ‚Ã³wnÄ…
+zaletÄ… nad innymi programami tego typu jest to, Å¼e uÅ¼ywa moduÅ‚u CPAN
+Lingua::EN::Squeeze, aby skompresowaÄ‡ tekst do okoÅ‚o 40% oryginalnego
+rozmiaru, co pozwala zmieÅ›ciÄ‡ wiÄ™cej w ograniczeniu do 160 znakÃ³w.
+Program jest w peÅ‚ni kompatybilny z MIME i ma wiele opcji, wÅ‚Ä…cznie z
+usuwaniem cytowanego tekstu. Idealny do uÅ¼ywania z procmailem.
+ZaÅ‚Ä…czony jest skrypt perlowy do wysyÅ‚ania wyjÅ›cia przez typowÄ…
+bramkÄ™ e-mail-SMS.
 
 %prep
 %setup -q -c

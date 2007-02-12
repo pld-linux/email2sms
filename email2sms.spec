@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	An Email-to-SMS formatter
-Summary(pl.UTF-8):   Formatowanie wiadomości Poczta->SMS
+Summary(pl.UTF-8):	Formatowanie wiadomości Poczta->SMS
 Name:		email2sms
 Version:	0.1
 Release:	1
